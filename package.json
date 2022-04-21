@@ -1,0 +1,31 @@
+{
+  "name": "osago07",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot/index.js",
+  "scripts": {
+    "dev": "nodemon startServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "connect-mongostore": "^0.1.4",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.9.11",
+    "mongoose-delete": "^0.5.2",
+    "ngrok": "^3.2.7",
+    "node-telegram-bot-api": "^0.40.0",
+    "socks5-https-client": "^1.2.1",
+    "tor-request": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
